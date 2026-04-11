@@ -131,27 +131,24 @@
             <label style="color: #333;">রোগীর নাম:</label>
             <input type="text" id="name" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
 
-            <label style="color: #333;">মোবাইল নম্বর:</label>
+            <label style="color: #333;">মোাবাইল নম্বর:</label>
             <input type="tel" id="phone" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
 
             <label style="color: #333;">সমস্যার বিবরণ:</label>
             <textarea id="problem" rows="3" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"></textarea>
 
-            <div style="background: #ffffff; padding: 20px; border-radius: 10px; margin: 20px 0; text-align: center; border: 2px dashed #2e7d32;">
-                <p style="color: #1a5e20; font-weight: bold; margin-bottom: 10px;">বুকিং ফি: ₹100</p>
+            <div style="background: #ffffff; padding: 20px; border-radius: 15px; margin: 20px 0; text-align: center; border: 2px solid #2e7d32; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                <p style="color: #1a5e20; font-weight: bold; font-size: 1.2rem; margin-bottom: 15px;">বুকিং ফি: ₹4500</p>
 
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=upi://pay?pa=sibaprasadsamanta679@okhdfcbank%26pn=Sibaprasad%20Samanta%26am=100%26cu=INR" alt="Scan to Pay" style="margin-bottom: 10px; border: 1px solid #eee; padding: 5px;">
+                <div style="background: #f9f9f9; padding: 15px; display: inline-block; border-radius: 10px;">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=sibaprasadsamanta679@okhdfcbank%26pn=Sibaprasad%20Samanta%26am=4500%26cu=INR%26tn=Clinic%20Booking" alt="Scan to Pay ₹4500" style="display: block;">
+                </div>
 
-                <p style="font-size: 0.85rem; color: #666;">QR কোডটি স্ক্যান করুন অথবা নিচের বাটনে ক্লিক করুন</p>
-
-                <a href="upi://pay?pa=sibaprasadsamanta679@okhdfcbank&pn=Sibaprasad%20Samanta&am=100&cu=INR&tn=Clinic%20Booking" class="contact-btn" style="background: #1a5e20; width: 80%; display: block; margin: 10px auto;">
-                    💳 পেমেন্ট অ্যাপ দিয়ে পে করুন
-                </a>
-
-                <p style="font-size: 0.75rem; color: #d32f2f; margin-top: 5px;">*পেমেন্ট করার পর হোয়াটসঅ্যাপে তথ্য পাঠানো বাধ্যতামূলক</p>
+                <p style="font-size: 0.9rem; color: #444; margin-top: 15px; font-weight: bold;">যেকোনো UPI অ্যাপ (GPay, PhonePe, Paytm) দিয়ে স্ক্যান করুন</p>
+                <p style="font-size: 0.8rem; color: #666;">(পেমেন্ট করার পর স্ক্রিনশট নিয়ে নিচের বাটনে ক্লিক করুন)</p>
             </div>
 
-            <button type="button" onclick="sendToWhatsApp()" class="contact-btn" style="width: 100%; background: #25d366; border: none; cursor: pointer; font-size: 1.1rem;">
+            <button type="button" onclick="sendToWhatsApp()" class="contact-btn" style="width: 100%; background: #25d366; border: none; cursor: pointer; font-size: 1.1rem; padding: 15px;">
                 ✅ হোয়াটসঅ্যাপে তথ্য জমা দিন
             </button>
         </form>
