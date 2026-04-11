@@ -4,75 +4,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. BRC Clinic | Diatician Sibaprasad Samanta panskura</title>
+  
+       
+        <meta name="description" content="DR. BRC Clinic, Panskura, Medinipur call DT. Sibaprasad immediately @8001970335">
+        <meta name="keywords" content="Dr. BRC Clinic, Sibaprasad Samanta">
+        <meta name="author" content="Dr BRC Sibaprasad Samanta">
+       
+ 
 
     <style>
         /* এনিমেশন এবং গ্লোবাল স্টাইল */
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-        @keyframes slideIn { from { transform: translateX(-100%); } to { transform: translateX(0); } }
-        
-        body { font-family: 'Hind Siliguri', sans-serif; line-height: 1.6; margin: 0; color: #333; background-color: #f0f7f0; scroll-behavior: smooth; }
-        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+            background-color: #f0f7f0;
+            scroll-behavior: smooth;
+        }
+
         /* হেডার এনিমেশন */
-        header { 
-            background: linear-gradient(135deg, #1a5e20, #2e7d32); 
-            color: white; 
-            padding: 4rem 2rem; 
-            text-align: center; 
+        header {
+            background: linear-gradient(135deg, #1a5e20, #2e7d32);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
             animation: fadeIn 1.5s ease-out;
         }
-        
-        .tagline-container { margin-bottom: 20px; }
-        .tagline { 
-            font-weight: bold; 
-            font-size: 1.1rem; 
-            border: 2px solid #a5d6a7; 
-            display: inline-block; 
-            padding: 8px 20px; 
-            margin: 5px; 
+
+        .tagline-container {
+            margin-bottom: 20px;
+        }
+
+        .tagline {
+            font-weight: bold;
+            font-size: 1.1rem;
+            border: 2px solid #a5d6a7;
+            display: inline-block;
+            padding: 8px 20px;
+            margin: 5px;
             border-radius: 25px;
             transition: 0.3s;
         }
-        .tagline:hover { background: #a5d6a7; color: #1a5e20; transform: scale(1.1); }
 
-        .container { width: 90%; max-width: 1200px; margin: auto; padding: 20px; }
+            .tagline:hover {
+                background: #a5d6a7;
+                color: #1a5e20;
+                transform: scale(1.1);
+            }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
 
         /* কার্ড স্টাইল এবং হোভার ইফেক্ট */
-        .highlight-box { 
-            background: white; 
-            padding: 30px; 
-            border-radius: 15px; 
-            box-shadow: 0 10px 20px rgba(0,0,0,0.05); 
-            margin-bottom: 30px; 
+        .highlight-box {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
             border-top: 5px solid #2e7d32;
             animation: fadeIn 2s ease-in;
             transition: transform 0.3s;
         }
-        .highlight-box:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
 
-        h2 { color: #1b5e20; border-bottom: 2px solid #c8e6c9; padding-bottom: 10px; }
+            .highlight-box:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            }
+
+        h2 {
+            color: #1b5e20;
+            border-bottom: 2px solid #c8e6c9;
+            padding-bottom: 10px;
+        }
 
         /* গ্রিড লেআউট */
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+        }
 
         /* কল বাটন এনিমেশন */
-        .contact-btn { 
-            display: inline-block; 
-            background: #d32f2f; 
-            color: white; 
-            padding: 15px 35px; 
-            text-decoration: none; 
-            border-radius: 50px; 
-            font-weight: bold; 
+        .contact-btn {
+            display: inline-block;
+            background: #d32f2f;
+            color: white;
+            padding: 15px 35px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
             margin-top: 20px;
             box-shadow: 0 4px 15px rgba(211, 47, 47, 0.4);
             transition: 0.3s;
         }
-        .contact-btn:hover { background: #b71c1c; transform: scale(1.05); box-shadow: 0 6px 20px rgba(211, 47, 47, 0.6); }
+
+            .contact-btn:hover {
+                background: #b71c1c;
+                transform: scale(1.05);
+                box-shadow: 0 6px 20px rgba(211, 47, 47, 0.6);
+            }
 
         /* ফুটার */
-        footer { background: #1b5e20; color: #e8f5e9; text-align: center; padding: 40px 20px; margin-top: 50px; }
-        
-        .protocol-list li { margin-bottom: 10px; padding-left: 10px; border-left: 3px solid #81c784; list-style: none; }
+        footer {
+            background: #1b5e20;
+            color: #e8f5e9;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 50px;
+        }
+
+        .protocol-list li {
+            margin-bottom: 10px;
+            padding-left: 10px;
+            border-left: 3px solid #81c784;
+            list-style: none;
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet">
 </head>
